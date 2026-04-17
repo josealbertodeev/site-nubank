@@ -1,0 +1,324 @@
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* Tablets e dispositivos médios */
+@media screen and (max-width: 1024px) {
+    .hero-content {
+        gap: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .card-section {
+        gap: 60px;
+        padding: 80px 40px;
+    }
+
+    .services {
+        gap: 30px;
+    }
+}
+
+/* Mobile - 768px e abaixo */
+@media screen and (max-width: 768px) {
+
+    /* ===== HEADER ===== */
+    header {
+        padding: 0 20px;
+        height: 60px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .logo-img {
+        height: 35px;
+    }
+
+    .btn-nubank {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+        padding: 20px 20px 40px;
+        min-height: 100vh;
+        align-items: center;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        max-width: none;
+    }
+
+    .hero-text {
+        max-width: none;
+        order: 1;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+
+    .hero-card {
+        max-width: none;
+        width: 100%;
+        padding: 24px;
+        order: 2;
+    }
+
+    .hero-card h3 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .hero-card input::placeholder {
+        text-align: center;
+    }
+
+    /* ===== SERVICES SECTION ===== */
+    .services {
+        padding: 40px 20px;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .services a {
+        min-width: calc(50% - 12px);
+        font-size: 12px;
+    }
+
+    /* ===== CARD SECTION ===== */
+    .card-section {
+        flex-direction: column;
+        padding: 60px 20px;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .credit-card {
+        width: 300px;
+        height: 180px;
+        padding: 24px;
+        margin: 0 auto;
+    }
+
+    .card-chip {
+        height: 30px;
+        width: 38px;
+        margin-bottom: 25px;
+    }
+
+    .card-info {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .card-text {
+        max-width: none;
+    }
+
+    .card-text h2 {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .card-text p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .card-text ul {
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto 24px auto;
+    }
+
+    /* ===== CTA SECTION ===== */
+    .cta {
+        padding: 60px 20px;
+    }
+
+    .cta h2 {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .cta p {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+        flex-direction: column;
+        padding: 40px 20px 20px;
+    }
+
+    .footer-top {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-links-container {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-links {
+        width: 100%;
+    }
+}
+
+/* Mobile pequeno - 480px e abaixo */
+@media screen and (max-width: 480px) {
+
+    /* ===== HEADER ===== */
+    header {
+        padding: 0 15px;
+    }
+
+    .btn-nubank {
+        font-size: 12px;
+    }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+        padding: 15px 15px 30px;
+    }
+
+    .hero-content {
+        gap: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    .hero-card {
+        padding: 20px;
+    }
+
+    .hero-card label {
+        font-size: 14px;
+    }
+
+    .hero-card h3 {
+        font-size: 16px;
+    }
+
+    .hero-card input::placeholder {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* ===== SERVICES SECTION ===== */
+    .services {
+        padding: 30px 15px;
+        gap: 20px;
+    }
+
+    .services a {
+        min-width: calc(50% - 10px);
+        font-size: 11px;
+    }
+
+    /* ===== CARD SECTION ===== */
+    .card-section {
+        padding: 50px 15px;
+    }
+
+    .credit-card {
+        width: 280px;
+        height: 170px;
+        padding: 20px;
+    }
+
+    .card-text h2 {
+        font-size: 24px;
+    }
+
+    .card-text p {
+        font-size: 14px;
+    }
+
+    .card-text ul {
+        font-size: 14px;
+    }
+
+    /* ===== CTA SECTION ===== */
+    .cta {
+        padding: 50px 15px;
+    }
+
+    .cta h2 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .cta p {
+        font-size: 14px;
+    }
+
+    .btn-purple {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+        padding: 30px 15px 15px;
+    }
+
+    .footer-links-container {
+        gap: 25px;
+    }
+}
+
+/* Ajustes gerais para melhor UX móvel */
+@media screen and (max-width: 768px) {
+
+    /* Melhor toque para botões */
+    .btn-nubank,
+    .btn-purple,
+    .btn-confirm {
+        min-height: 44px;
+        touch-action: manipulation;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Input mais acessível */
+    .hero-card input {
+        min-height: 44px;
+        font-size: 16px;
+        /* Evita zoom no iOS */
+    }
+
+    /* Scroll suave */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Evita overflow horizontal */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Melhora legibilidade */
+    .card-text ul li,
+    .footer-links a {
+        line-height: 1.5;
+    }
+}
