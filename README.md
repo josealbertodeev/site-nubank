@@ -1,4 +1,4 @@
-# 💜 Site Nubank - Landing Page Responsiva
+# Site Nubank - Landing Page Responsiva
 
 <div align="center">
   <img src="src/img/nulogo.png" alt="Nubank Logo" width="120">
@@ -9,6 +9,8 @@
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
   ![Responsive](https://img.shields.io/badge/Design-Responsive-purple?style=for-the-badge)
 </div>
+
+<img width="1347" height="571" alt="Animação mobile" src="https://github.com/user-attachments/assets/9a75e00d-3990-4185-b7cf-ab559e78fc3a" />
 
 ## 📱 Sobre o Projeto
 
@@ -118,4 +120,6 @@ cd site-nubank
 4. **Card Section** - Apresentação do cartão de crédito
 5. **CTA Final** - Última oportunidade de conversão
 6. **Footer** - Links institucionais e informações
+
+## 🔗Acesse o site aqui [link](https://josealbertodeev.github.io/site-nubank/)
 
